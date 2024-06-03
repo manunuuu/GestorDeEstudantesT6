@@ -198,6 +198,7 @@
             this.buttonEnviarFoto.TabIndex = 18;
             this.buttonEnviarFoto.Text = "Enviar Foto";
             this.buttonEnviarFoto.UseVisualStyleBackColor = true;
+            this.buttonEnviarFoto.Click += new System.EventHandler(this.buttonEnviarFoto_Click);
             // 
             // buttonCancelar
             // 
@@ -208,6 +209,7 @@
             this.buttonCancelar.TabIndex = 19;
             this.buttonCancelar.Text = "Cancelar";
             this.buttonCancelar.UseVisualStyleBackColor = true;
+            this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
             // 
             // buttonCadastrar
             // 
@@ -223,7 +225,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(311, 591);
+            this.ClientSize = new System.Drawing.Size(323, 578);
             this.Controls.Add(this.buttonCadastrar);
             this.Controls.Add(this.buttonCancelar);
             this.Controls.Add(this.buttonEnviarFoto);

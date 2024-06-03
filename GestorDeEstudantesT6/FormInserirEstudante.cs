@@ -16,5 +16,17 @@ namespace GestorDeEstudantesT6
         {
             InitializeComponent();
         }
+
+        private void buttonCancelar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void buttonEnviarFoto_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog SelecionarImagem = new OpenFileDialog();
+
+            "selecione a foto (*.jpg, *.png, *.gif)"
+        }
     }
 }

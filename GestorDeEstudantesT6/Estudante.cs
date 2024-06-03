@@ -26,6 +26,8 @@ namespace GestorDeEstudantesT6
             comando.Parameters.Add("@endereco", MySqlDbType.Text).Value = endereco;
             comando.Parameters.Add("@foto", MySqlDbType.LongBlob).Value = foto;
 
+
+
             return true;
         }
     }
