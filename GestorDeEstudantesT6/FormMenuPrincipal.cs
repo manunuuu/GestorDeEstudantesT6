@@ -16,5 +16,10 @@ namespace GestorDeEstudantesT6
         {
             InitializeComponent();
         }
+
+        private void alunosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
